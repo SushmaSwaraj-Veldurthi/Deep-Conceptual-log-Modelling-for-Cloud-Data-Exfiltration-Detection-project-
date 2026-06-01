@@ -1,0 +1,4 @@
+features = []
+
+for log in logs["log_text"]:
+    features.append(get_embedding(log))
