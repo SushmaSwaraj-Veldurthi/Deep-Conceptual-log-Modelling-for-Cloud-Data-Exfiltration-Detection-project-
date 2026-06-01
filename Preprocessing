@@ -1,0 +1,2 @@
+logs["log_text"] = logs["log_text"].str.lower()
+logs["log_text"] = logs["log_text"].fillna("")
