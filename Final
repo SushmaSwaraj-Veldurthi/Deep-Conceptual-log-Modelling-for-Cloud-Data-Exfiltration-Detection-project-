@@ -1,0 +1,4 @@
+suspicious_logs.to_csv(
+    "detected_exfiltration.csv",
+    index=False
+)
