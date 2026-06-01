@@ -1,0 +1,10 @@
+from sklearn.ensemble import IsolationForest
+
+detector = IsolationForest(
+    contamination=0.05,
+    random_state=42
+)
+
+detector.fit(features)
+
+predictions = detector.predict(features)
