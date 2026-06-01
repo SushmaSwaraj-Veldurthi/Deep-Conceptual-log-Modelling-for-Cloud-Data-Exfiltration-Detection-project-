@@ -1,0 +1,5 @@
+logs["anomaly"] = predictions
+
+suspicious_logs = logs[logs["anomaly"] == -1]
+
+print(suspicious_logs)
